@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 /* ================= HEADER ================= */
 header {
     display: flex;
@@ -34,7 +37,7 @@ header {
 }
 
 .navbar h3 {
-    transition: transform 1s ease, color 0.5s ease;
+    transition: transform 0.5s ease, color 0.5s ease;
     cursor: pointer;
 }
 
@@ -73,6 +76,8 @@ header {
 
 
 /* ================= MAIN ================= */
+
+   /* ============== HOME ============== */
 body {
     background-color: #F4F2FC;
     height: 100%;
@@ -129,18 +134,17 @@ body {
 
 .botao {
     animation: blink 2.7s linear infinite;
-    transition: transform 1.5s ease;
+    transition: transform 1s ease;
     cursor: pointer;
-    transform: scale(1);
 }
 
 .botao:hover {
     transform: scale(1.2);
 }
 
-/* ========================================== */
+   /* ================================ */
 
-/* =============== INTRODUÇÃO =============== */
+   /* ========== INTRODUÇÃO ========== */
 .introducao {
     display: flex;
     flex-direction: row;
@@ -155,7 +159,7 @@ body {
     display: flex;
     text-align: center;
     flex-direction: column;
-    margin-right: 100px;
+    margin-right: 50px;
     font-size: 30px;
     font-family: sans-serif;
     align-items: center;
@@ -167,6 +171,7 @@ body {
     color: #6B6969;
     margin-top: 30px;
     margin-bottom: 50px;
+    line-height: 1.3;
 }
 
 .barra2 {
@@ -180,6 +185,116 @@ body {
     opacity: 1;
     margin-top: 200px;
 }
+
+   /* ================================ */
+
+   /* =========== RECURSOS =========== */
+.recursos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    padding: 20px;
+    margin-top: 300px;
+    justify-content: center;
+}
+
+.recursos div {
+    display: flex;
+    width: 18vw;
+    height: 25vh;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    box-shadow: 10px 10px 10px #404CCD;
+    transition: transform 1s ease;
+    text-align: center;
+}
+
+.recursos div:hover {
+    transform: scale(1.2);
+}
+
+.recursos2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    padding: 20px;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.recursos2 div {
+    display: flex;
+    width: 18vw;
+    height: 25vh;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    box-shadow: 10px 10px 10px #404CCD;
+    transition: transform 1s ease;
+    text-align: center;
+}
+
+.recursos2 div:hover {
+    transform: scale(1.2);
+}
+
+
+.botaovideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #404CCD;
+    width: 18vw;
+    height: 5vh;
+    margin-left: 770px;
+    margin-top: 90px;
+    border-radius: 50px;
+    font-family: sans-serif;
+    color: #fff;
+    transition: transform 0.5s ease;
+}
+
+.botaovideo:hover {
+    transform: scale(1.2);
+}
+
+
+.barra3 {
+    position: absolute;
+    top: 970px;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background: #4f46e6;
+    opacity: 1;
+    margin-top: 1300px;
+}
+
+   /* ================================ */
+
+   /* ========== INFORMAÇÃO ========== */
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    margin-top: 200px;
+}
+
+.info h2 {
+    margin-top: 50px;
+    width: 78vw;
+    color: #767373;
+    text-align: center;
+    line-height: 1.5;
+}
+
+   /* ================================ */
+
+
 
 /* ========================================== */
 
