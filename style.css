@@ -280,7 +280,7 @@ body {
     width: 100%;
     background: #4f46e6;
     opacity: 1;
-    margin-top: 1300px;
+    margin-top: 1400px;
 }
 
 /* ================================ */
@@ -292,7 +292,7 @@ body {
     align-items: center;
     flex-direction: column;
     font-family: sans-serif;
-    margin-top: 200px;
+    margin-top: 300px;
 }
 
 .info h2 {
@@ -349,8 +349,132 @@ body {
 /* ================================ */
 
 /* ======== DEMONSTRAÇÔES ========= */
+.demonstracao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    margin-top: 90px;
+}
+
+.demonstracao h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.demonstracao h2 {
+    color: #767373;
+}
 
 
+
+
+.selecao1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    padding: 20px;
+    margin-top: 200px;
+    justify-content: center;
+}
+
+.selecao1 div {
+    display: flex;
+    width: 18vw;
+    height: 25vh;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    box-shadow: 10px 10px 10px #404CCD;
+    transition: transform 1s ease;
+    text-align: center;
+}
+
+.selecao1 div:hover {
+    transform: scale(1.2);
+}
+
+.selecao2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    padding: 20px;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.selecao2 div {
+    display: flex;
+    width: 18vw;
+    height: 25vh;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    box-shadow: 10px 10px 10px #404CCD;
+    transition: transform 1s ease;
+    text-align: center;
+}
+
+.selecao2 div:hover {
+    transform: scale(1.2);
+}
+
+.barra4 {
+    position: absolute;
+    top: 3300px;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background: #4f46e6;
+    opacity: 1;
+    margin-top: 1300px;
+}
+
+/* ================================ */
+
+/* =========== CONTATO ============ */
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+    font-family: sans-serif;
+}
+
+.contato h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.contato h3 {
+    width: 25vw;
+    text-align: center;
+    line-height: 1.5;
+    color: #767373;
+}
+
+.number {
+    display: flex;
+    background-color: #404CCD;
+    width: 15vw;
+    height: 6vh;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 810px;
+    margin-top: 70px;
+    margin-bottom: 150px;
+    font-family: sans-serif;
+    color: #fff;
+    border-radius: 50px;
+    transition: transform 1s ease;
+}
+
+.number:hover {
+    transform: scale(1.2);
+}
 
 /* ================================ */
 
@@ -363,8 +487,21 @@ body {
 
 
 /* ================= FOOTER ================= */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    background-color:#404CCD;
+    color: #fff;
+    height: 10vh;
+}
 
-
+footer h1 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 
 
